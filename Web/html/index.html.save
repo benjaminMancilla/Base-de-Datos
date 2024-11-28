@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+<body>
+<div id="content">
+        <form action="consulta1.php" method="get">
+            <fieldset>
+                <legend> Obtener notas de alumno </legend>
+                <!-- Text input-->
+                <div>
+                    <label> Id alumno </label>
+                    <input name="id">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+        </div>    
+        <div id="content">
+        <form action="consulta1.php" method="get">
+            <fieldset>
+                <legend> Obtener notas de alumno </legend>
+                <!-- Text input-->
+                <div>
+                    <label> Id alumno </label>
+                    <input name="id">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="content">
+        <form action="consulta2.php" method="get">
+            <fieldset>
+                <legend> Nota maxima de edad </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> Ingrese edad </label>
+                    <input name="edad">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="content">
+        <form action="consulta4.php" method="get">
+            <fieldset>
+                <legend> Estudiantes que se sacaron una nota en un ejercicio </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> No. Ejercicio </label>
+                    <input name="ejercicio">
+                </div>
+                <div>
+                    <label> Nota </label>
+                    <input name="nota">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+<body>
+   <div id="content">
+        <form action="consulta1.php" method="get">
+            <fieldset>
+                <legend> Victorias, derrotas y empates de cada equipo </legend>
+                <!-- Text input-->
+                <div>
+                    <label> Desde el anho </label>
+                    <input name="ano1">
+                </div>
+
+                <div>
+                    <label> Hasta el anho ñ/label>
+                    <input name="ano2">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="content">
+        <form action="consulta2.php" method="get">
+            <fieldset>
+                <legend> Registro de tarjetas rojas y amarillas desde el 2001 en: </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> Estadio </label>
+                    <input name="estadio">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <div id="content">
+        <form action="consulta3.php" method="get">
+            <fieldset>
+                <legend> Estudiantes que se sacaron una nota en un ejercicio </legend>
+
+                <!-- Text input-->
+                <div>
+                    <label> No. Ejercicio </label>
+                    <input name="ejercicio">
+                </div>
+                <div>
+                    <label> Nota </label>
+                    <input name="nota">
+                </div>
+
+                <!-- Button -->
+                <div>
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
